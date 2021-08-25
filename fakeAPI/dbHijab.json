@@ -1,0 +1,886 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "1234",
+      "cart": [],
+      "role": "admin"
+    },
+    {
+      "username": "kayla",
+      "email": "kayla@mail.com",
+      "password": "121212",
+      "cart": [],
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "nama": "Bosphorus Warm Blue",
+      "deskripsi": "Bosphorus adalah nama selat di turki yang memisahkan laut Marmara dan laut Hitam,dengan pemandangan alam yang indah menjadi insprirasi tersendiri bagi HIjab.id untuk mendesign produk Hijab yang depat mempercantik setiap wanita di Hari Spesialnya dengan design Hijab yang terlihat simple,mewah dan elegan.",
+      "brand": "Hijab.Id",
+      "category": "Printed Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Midnight Black",
+          "qty": 3
+        },
+        {
+          "id": null,
+          "type": "Mocca",
+          "qty": 4
+        },
+        {
+          "id": null,
+          "type": "Ash Green",
+          "qty": 4
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/a3d6d57d837d08dc.jpg",
+        "https://hijab.id/tm_images/produk_foto/8c2c78f76b025956.jpg",
+        "https://hijab.id/tm_images/produk_foto/0702084d8503b6cc.jpg"
+      ],
+      "harga": 225000,
+      "id": 1
+    },
+    {
+      "nama": "Bosphorus Mocca",
+      "deskripsi": "Bosphorus adalah nama selat di turki yang memisahkan laut Marmara dan laut Hitam,dengan pemandangan alam yang indah menjadi insprirasi tersendiri bagi HIjab.id untuk mendesign produk Hijab yang depat mempercantik setiap wanita di Hari Spesialnya dengan design Hijab yang terlihat simple,mewah dan elegan.",
+      "brand": "Hijab.Id",
+      "category": "Printed Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Midnight Black",
+          "qty": 14
+        },
+        {
+          "id": null,
+          "type": "Warm Blue",
+          "qty": 20
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/39491f974fc4e9c7.jpg",
+        "https://hijab.id/tm_images/produk_foto/22ada9b40f77f668.jpg",
+        "https://hijab.id/tm_images/produk_foto/7b6e193c10ae4847.jpg"
+      ],
+      "harga": 225000,
+      "id": 2
+    },
+    {
+      "nama": "Bosphorus Ash Green",
+      "deskripsi": "Bosphorus adalah nama selat di turki yang memisahkan laut Marmara dan laut Hitam,dengan pemandangan alam yang indah menjadi insprirasi tersendiri bagi HIjab.id untuk mendesign produk Hijab yang depat mempercantik setiap wanita di Hari Spesialnya dengan design Hijab yang terlihat simple,mewah dan elegan.",
+      "brand": "Hijab.Id",
+      "category": "Printed Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Ash Green",
+          "qty": 22
+        },
+        {
+          "id": null,
+          "type": "Warm Blue",
+          "qty": 18
+        },
+        {
+          "id": null,
+          "type": "Mocca",
+          "qty": 25
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/ae211a6a956d8c9f.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/fc588bdd79671549.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/e2cb4cf51910f3c2.jpg"
+      ],
+      "harga": 225000,
+      "id": 3
+    },
+    {
+      "nama": "Hannah Hijab Instant Mammadis x hijab.id Lemon",
+      "deskripsi": "Hannah memiliki arti bunga yang merekah.  Dalam bahasa jepang hana adalah bunga, mekar. Sedangkan dalam bahasa arab hannah artinya cinta, kasih sayang.  Dalam hannah series persembahan hijab.id hannah digambarkan dengan motif bunga merekah yang anggun dan elegan. Yang dapat melambangkan cinta kasih.",
+      "brand": "Hijab.Id",
+      "category": "Hijab Instan",
+      "stock": [
+        {
+          "id": null,
+          "type": "Lemon",
+          "qty": 23
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/c2a6e0c1b7f010f1.jpg",
+        "https://hijab.id/tm_images/produk_foto/4f518e4e0aa87cfd.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/15fbccc538ec83f8.jpg"
+      ],
+      "harga": 185000,
+      "id": 4
+    },
+    {
+      "nama": "Hannah Hijab Instant Mammadis x hijab.id Black",
+      "deskripsi": "Hannah memiliki arti bunga yang merekah.  Dalam bahasa jepang hana adalah bunga, mekar. Sedangkan dalam bahasa arab hannah artinya cinta, kasih sayang.  Dalam hannah series persembahan hijab.id hannah digambarkan dengan motif bunga merekah yang anggun dan elegan. Yang dapat melambangkan cinta kasih.",
+      "brand": "Hijab.Id",
+      "category": "Hijab Instan",
+      "stock": [
+        {
+          "id": null,
+          "type": "Black",
+          "qty": 14
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/77395f1ffb34cfb7.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/86756ffccec400de.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/8cc222e5594d168e.jpg"
+      ],
+      "harga": 185000,
+      "id": 5
+    },
+    {
+      "nama": "Hannah Hijab Instant Mammadis x hijab.id Pearl",
+      "deskripsi": "Hannah memiliki arti bunga yang merekah.  Dalam bahasa jepang hana adalah bunga, mekar. Sedangkan dalam bahasa arab hannah artinya cinta, kasih sayang.  Dalam hannah series persembahan hijab.id hannah digambarkan dengan motif bunga merekah yang anggun dan elegan. Yang dapat melambangkan cinta kasih.",
+      "brand": "Hijab.Id",
+      "category": "Hijab Instan",
+      "stock": [
+        {
+          "id": null,
+          "type": "Pearl",
+          "qty": 16
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/f7f44b5d0159f6fa.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/ec75721b8b776cef.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/e5a791e5023833ee.jpg"
+      ],
+      "harga": 185000,
+      "id": 6
+    },
+    {
+      "nama": "Leaf Syar'i",
+      "deskripsi": "Material : Premium Voal (bahan lembut, mudah dibentuk, tidak menerawang)\n\nSize : 140 cm x 140 cm",
+      "brand": "Hijab.Id",
+      "category": "Syari Hijab",
+      "stock": [
+        {
+          "id": null,
+          "type": "Purple",
+          "qty": 12
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/57db8faee26305ed.jpg",
+        "https://hijab.id/tm_images/produk_foto/707e28cfab6e217b.jpg",
+        "https://hijab.id/tm_images/produk_foto/b8e511814214dbc4.jpg"
+      ],
+      "harga": 225000,
+      "id": 7
+    },
+    {
+      "nama": "Almahira Graffiti Syar'i",
+      "deskripsi": "Material : Premium Voal (lembut, adem, mudah dibentuk, tegak sempurna di dahi).  Finishing Laser cut. Laser cut berbentuk awan yang unik. Size : 115cm X 115cm With Packaging Box Spot UV",
+      "brand": "Hijab.Id",
+      "category": "Syari Hijab",
+      "stock": [
+        {
+          "id": null,
+          "type": "Black",
+          "qty": 13
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/thumb/8e3ddbc5bab4ba4d.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/2840b03b04dd34f5.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/3c59afd6a88f07dd.jpg"
+      ],
+      "harga": 225000,
+      "id": 8
+    },
+    {
+      "nama": "Atifa Pants",
+      "deskripsi": "Nyaman digunakan dalam setiap kegiatan ",
+      "brand": "Hijab.Id",
+      "category": "Bottoms",
+      "stock": [
+        {
+          "id": null,
+          "type": "Cream",
+          "qty": 15
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/a0ffc907cb1f6d1d.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/48923133ad2c8ae8.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/8aa2c59b7b917be5.jpg"
+      ],
+      "harga": 95000,
+      "id": 9
+    },
+    {
+      "nama": "Arfa Pant",
+      "deskripsi": "Nyaman digunakan dalam setiap kegiatan ",
+      "brand": "Hijab.Id",
+      "category": "Bottoms",
+      "stock": [
+        {
+          "id": null,
+          "type": "White",
+          "qty": 17
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/0fa03ba8bbf01409.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/97732ba2aa076b68.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/317e7b6705f251db.jpg"
+      ],
+      "harga": 95000,
+      "id": 10
+    },
+    {
+      "nama": "Abina Pashmina Purple",
+      "deskripsi": "Abina Pashmina Series  - Ukuran: 200 x 75 cm - Bahan: Voal Premium - Finishing: Jahit Tepi",
+      "brand": "Hijab.Id",
+      "category": "Printed Pashmina",
+      "stock": [
+        {
+          "id": null,
+          "type": "Purple",
+          "qty": 12
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/thumb/4ce8373dccc205f7.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/17fb24ac06ead527.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/ffafe5bbf806d183.jpg"
+      ],
+      "harga": 195000,
+      "id": 11
+    },
+    {
+      "nama": "Abina Pashmina Blue",
+      "deskripsi": "Abina Pashmina Series  - Ukuran: 200 x 75 cm - Bahan: Voal Premium - Finishing: Jahit Tepi",
+      "brand": "Hijab.Id",
+      "category": "Printed Pashmina",
+      "stock": [
+        {
+          "id": null,
+          "type": "Blue",
+          "qty": 19
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/839887d266e03fc9.jpg",
+        "https://hijab.id/tm_images/produk_foto/95a514fe09f6dff6.jpg",
+        "https://hijab.id/tm_images/produk_foto/005e2748103a12b6.jpg"
+      ],
+      "harga": 195000,
+      "id": 12
+    },
+    {
+      "nama": "Abina Pashmina Black",
+      "deskripsi": "Abina Pashmina Series  - Ukuran: 200 x 75 cm - Bahan: Voal Premium - Finishing: Jahit Tepi",
+      "brand": "Hijab.Id",
+      "category": "Printed Pashmina",
+      "stock": [
+        {
+          "id": null,
+          "type": "Black",
+          "qty": 20
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk_foto/1f251438fd858690.jpg",
+        "https://hijab.id/tm_images/produk_foto/e22606ff80011916.jpg",
+        "https://hijab.id/tm_images/produk/9322bec246d610f5.jpg"
+      ],
+      "harga": 195000,
+      "id": 13
+    },
+    {
+      "nama": "Voal Plain Olive",
+      "deskripsi": "Voal Plain Premium Polos  - Ukuran: 115 x 115 cm - Bahan: Hijab.id Voile / Voal Ultrafine",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Olive",
+          "qty": 14
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/62a48f5d5729e469.jpg"
+      ],
+      "harga": 79000,
+      "id": 14
+    },
+    {
+      "nama": "Voal Plain Silver",
+      "deskripsi": "Voal Plain Premium Polos  - Ukuran: 115 x 115 cm - Bahan: Hijab.id Voile / Voal Ultrafine",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Silver",
+          "qty": 23
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/d0f9f1247f492613.jpg"
+      ],
+      "harga": 79000,
+      "id": 15
+    },
+    {
+      "nama": "Voal Plain Ruby",
+      "deskripsi": "Voal Plain Premium Polos  - Ukuran: 115 x 115 cm - Bahan: Hijab.id Voile / Voal Ultrafine",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Ruby",
+          "qty": 21
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/48b386fa0e887206.jpg"
+      ],
+      "harga": 79000,
+      "id": 16
+    },
+    {
+      "nama": "Aksara Pink",
+      "deskripsi": "Aksara Series  - Ukuran: 115 x 115 cm - Bahan: Voal Premium - Finishing: Laser Cut",
+      "brand": "Hijab.Id",
+      "category": "Printed Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Pink",
+          "qty": 13
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/90d411a0473aa565.jpg",
+        "https://hijab.id/tm_images/produk_foto/04ee29cc16dea22f.jpg",
+        "https://hijab.id/tm_images/produk_foto/6ea578386c44a794.jpg"
+      ],
+      "harga": 225000,
+      "id": 17
+    },
+    {
+      "nama": "Btari",
+      "deskripsi": "Btari  - Ukuran: 115 x 115 cm - Bahan: Voal Premium - Finishing: laser cut",
+      "brand": "Hijab.Id",
+      "category": "Printed Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Btari",
+          "qty": 23
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/0b0bbca458b3861a.jpg",
+        "https://hijab.id/tm_images/produk_foto/5ad4fce8618754b3.jpg",
+        "https://hijab.id/tm_images/produk_foto/2758b69ca81ac533.jpg"
+      ],
+      "harga": 225000,
+      "id": 18
+    },
+    {
+      "nama": "Hannah Hijab Instant Mammadis x hijab.id Ocean",
+      "deskripsi": "Hannah memiliki arti bunga yang merekah.  Dalam bahasa jepang hana adalah bunga, mekar. Sedangkan dalam bahasa arab hannah artinya cinta, kasih sayang.  Dalam hannah series persembahan hijab.id hannah digambarkan dengan motif bunga merekah yang anggun dan elegan. Yang dapat melambangkan cinta kasih.",
+      "brand": "Hijab.Id",
+      "category": "Hijab Instan",
+      "stock": [
+        {
+          "id": null,
+          "type": "Ocean",
+          "qty": 16
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/0f1553c11e1beff9.jpg",
+        "https://hijab.id/tm_images/produk_foto/5e7167c50e7867ce.jpg",
+        "https://hijab.id/tm_images/produk_foto/thumb/493fdc03a9ced295.jpg"
+      ],
+      "harga": 185000,
+      "id": 19
+    },
+    {
+      "nama": "Hannah Hijab Instant Mammadis x hijab.id Nude",
+      "deskripsi": "Hannah memiliki arti bunga yang merekah.  Dalam bahasa jepang hana adalah bunga, mekar. Sedangkan dalam bahasa arab hannah artinya cinta, kasih sayang.  Dalam hannah series persembahan hijab.id hannah digambarkan dengan motif bunga merekah yang anggun dan elegan. Yang dapat melambangkan cinta kasih.",
+      "brand": "Hijab.Id",
+      "category": "Hijab Instan",
+      "stock": [
+        {
+          "id": null,
+          "type": "Nude",
+          "qty": 22
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/f4711a186275370b.jpg",
+        "https://hijab.id/tm_images/produk_foto/572d5d57629d0656.jpg",
+        "https://hijab.id/tm_images/produk_foto/15d4bc3faef69bb6.jpg"
+      ],
+      "harga": 185000,
+      "id": 20
+    },
+    {
+      "nama": "Hannah Hijab Instant Mammadis x hijab.id Blush",
+      "deskripsi": "Hannah memiliki arti bunga yang merekah.  Dalam bahasa jepang hana adalah bunga, mekar. Sedangkan dalam bahasa arab hannah artinya cinta, kasih sayang.  Dalam hannah series persembahan hijab.id hannah digambarkan dengan motif bunga merekah yang anggun dan elegan. Yang dapat melambangkan cinta kasih.",
+      "brand": "Hijab.Id",
+      "category": "Hijab Instan",
+      "stock": [
+        {
+          "id": null,
+          "type": "Blush",
+          "qty": 11
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk_foto/5a5ee181f56f9b24.jpg",
+        "https://hijab.id/tm_images/produk/dfe374397696e354.jpg",
+        "https://hijab.id/tm_images/produk_foto/91b086461794276f.jpg"
+      ],
+      "harga": 185000,
+      "id": 21
+    },
+    {
+      "nama": "Voal Plain Navy",
+      "deskripsi": "Voal Plain Premium Polos  - Ukuran: 115 x 115 cm - Bahan: Hijab.id Voile / Voal Ultrafine",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Navy",
+          "qty": 10
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/aa534d8afeea7d6f.jpg"
+      ],
+      "harga": 79000,
+      "id": 22
+    },
+    {
+      "nama": "Voal Plain Black",
+      "deskripsi": "Voal Plain Premium Polos  - Ukuran: 115 x 115 cm - Bahan: Hijab.id Voile / Voal Ultrafine",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Black",
+          "qty": 14
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/31fac1da8c8bfc49.jpg"
+      ],
+      "harga": 79000,
+      "id": 23
+    },
+    {
+      "nama": "Voal Plain Green Bottle",
+      "deskripsi": "Voal Plain Premium Polos  - Ukuran: 115 x 115 cm - Bahan: Hijab.id Voile / Voal Ultrafine",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Square",
+      "stock": [
+        {
+          "id": null,
+          "type": "Green Bottle",
+          "qty": 19
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/51ec6a7c00ffb3a6.jpg"
+      ],
+      "harga": 79000,
+      "id": 24
+    },
+    {
+      "nama": "Pashmina Mustard",
+      "deskripsi": "Pashmina Mustard - Ukuran: 200 x 75 cm - Bahan: Premium Ceruty Baby Doll- Finishing: Laser Cut",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Pashmina",
+      "stock": [
+        {
+          "id": null,
+          "type": "Mustard",
+          "qty": 10
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/d6738307f92eb676.jpg"
+      ],
+      "harga": 89500,
+      "id": 25
+    },
+    {
+      "nama": "Pashmina Maroon",
+      "deskripsi": "Pashmina Maroon - Ukuran: 200 x 75 cm - Bahan: Premium Ceruty Baby Doll - Finishing: Laser Cut",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Pashmina",
+      "stock": [
+        {
+          "id": null,
+          "type": "Maroon",
+          "qty": 12
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/545fd8b903ca890c.jpg"
+      ],
+      "harga": 89500,
+      "id": 26
+    },
+    {
+      "nama": "Pashmina Dusty Pink",
+      "deskripsi": "Pashmina Dusty Pink - Ukuran: 200 x 75 cm - Bahan: Premium Ceruty Baby Doll - Finishing: Laser Cut",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Pashmina",
+      "stock": [
+        {
+          "id": null,
+          "type": "Pink",
+          "qty": 15
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/16ddd65d33682ac7.jpg"
+      ],
+      "harga": 89500,
+      "id": 27
+    },
+    {
+      "nama": "Pashmina Milo",
+      "deskripsi": "Pashmina Nude - Ukuran: 200 x 75 cm - Bahan: Premium Ceruty Baby Doll - Finishing: Laser Cut",
+      "brand": "Hijab.Id",
+      "category": "Plain Hijab Pashmina",
+      "stock": [
+        {
+          "id": null,
+          "type": "Milo",
+          "qty": 20
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/d43447f15c699c0d.jpg"
+      ],
+      "harga": 89500,
+      "id": 28
+    },
+    {
+      "nama": "Zahra Rose Syar'i",
+      "deskripsi": "Zahra Syar'i  - Ukuran: 140 x 140 cm  - Bahan: Voal Premium - Finishing: Jahit Tepi",
+      "brand": "Hijab.Id",
+      "category": "Syari Hijab",
+      "stock": [
+        {
+          "id": null,
+          "type": "Rose",
+          "qty": 14
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/d4c1ceca42a193b6.jpg",
+        "https://hijab.id/tm_images/produk_foto/410e831b15d680e7.jpg",
+        "https://hijab.id/tm_images/produk_foto/925db2b8f5b5c1e6.jpg"
+      ],
+      "harga": 255000,
+      "id": 29
+    },
+    {
+      "nama": "Thafana Purple Syar'i",
+      "deskripsi": "Thafana  - Ukuran: 115 x 115 cm - Bahan: Voal Premium - Finishing: Jahit Tepi",
+      "brand": "Hijab.Id",
+      "category": "Syari Hijab",
+      "stock": [
+        {
+          "id": null,
+          "type": "Purple",
+          "qty": 14
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/02207e580015b293.jpg",
+        "https://hijab.id/tm_images/produk_foto/17afc82b9c7f18ea.jpg",
+        "https://hijab.id/tm_images/produk_foto/25fb02b6460af5e2.jpg"
+      ],
+      "harga": 255000,
+      "id": 30
+    },
+    {
+      "nama": "Zea Navy Syar'i",
+      "deskripsi": "Abina Pashmina Series  - Ukuran: `140 x 140 cm - Bahan: Voal Premium - Finishing: Jahit Tepi",
+      "brand": "Hijab.Id",
+      "category": "Syari Hijab",
+      "stock": [
+        {
+          "id": null,
+          "type": "Zea Navy",
+          "qty": 12
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/e557f0ecab950e04.jpg",
+        "https://hijab.id/tm_images/produk_foto/69e9ec9999e68d37.jpg",
+        "https://hijab.id/tm_images/produk_foto/62c684d605e9a18c.jpg"
+      ],
+      "harga": 255000,
+      "id": 31
+    },
+    {
+      "nama": "Zea Long Outer",
+      "deskripsi": "Outer dengan aksen kancing dibagian tengah yang bisa dibuka tutup,menjadikan zea long outer bisa menjadi semi Dress,motif Zea yang unik dengan perpaduan warna pastel juga menambah kesan manis dan elegan pada Zea Long Outer ini",
+      "brand": "Hijab.Id",
+      "category": "Dress",
+      "stock": [
+        {
+          "id": null,
+          "type": "Zea Long",
+          "qty": 15
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/ab02165bac5e21eb.jpg",
+        "https://hijab.id/tm_images/produk_foto/660b529042886ab6.jpg",
+        "https://hijab.id/tm_images/produk_foto/3006e7546e4dd224.jpg"
+      ],
+      "harga": 382500,
+      "id": 32
+    },
+    {
+      "nama": "Sidney Dress",
+      "deskripsi": "Material : High Quality Cotton ( Hand feel lembut, dingin, jatuh, tidak menerawang ) . Size : S , LD : 96cm M, LD : 100cm L, LD : 104cm XL, LD : 108cm Panjang Dress all 140cm",
+      "brand": "Hijab.Id",
+      "category": "Dress",
+      "stock": [
+        {
+          "id": null,
+          "type": "Sydney",
+          "qty": 16
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/f7be5649311c9717.jpg",
+        "https://hijab.id/tm_images/produk_foto/8b0a398c28f950bb.jpg",
+        "https://hijab.id/tm_images/produk_foto/afba27aa4bf22d10.jpg"
+      ],
+      "harga": 525000,
+      "id": 33
+    },
+    {
+      "nama": "Hajjar Dress",
+      "deskripsi": "Material: Versace twill,  adem, nyaman digunakan, dan tidak menerawang.  Dipercantik dengan Rose Gold Charm",
+      "brand": "Hijab.Id",
+      "category": "Dress",
+      "stock": [
+        {
+          "id": null,
+          "type": "Black",
+          "qty": 10
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/a3f14f66564a41b6.jpg",
+        "https://hijab.id/tm_images/produk_foto/8b2f5b9637c4c7cb.jpg",
+        "https://hijab.id/tm_images/produk_foto/5bfc9f260e9b5b04.jpg"
+      ],
+      "harga": 350000,
+      "id": 34
+    },
+    {
+      "nama": "Aara",
+      "deskripsi": "Material : Rayon Bahan adem, jatuh mengikuti bentuk badan, menyerap keringat, nyaman banget dipakai, cocok untuk Daily Actifity kamu.",
+      "brand": "Hijab.Id",
+      "category": "Homewear",
+      "stock": [
+        {
+          "id": null,
+          "type": "Aara",
+          "qty": 24
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/45355d3d8059100e.jpg",
+        "https://hijab.id/tm_images/produk_foto/5631f097018cf237.jpg",
+        "https://hijab.id/tm_images/produk_foto/b702b8817758519d.jpg"
+      ],
+      "harga": 150000,
+      "id": 35
+    },
+    {
+      "nama": "Goldy",
+      "deskripsi": "Material : Rayon Bahan adem, jatuh mengikuti bentuk badan, menyerap keringat, nyaman banget dipakai, cocok untuk Daily Actifity kamu.",
+      "brand": "Hijab.Id",
+      "category": "Homewear",
+      "stock": [
+        {
+          "id": null,
+          "type": "Goldy",
+          "qty": 24
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/f7c75f5d549ded7f.jpg",
+        "https://hijab.id/tm_images/produk_foto/3da86b058854b89f.jpg",
+        "https://hijab.id/tm_images/produk_foto/6f7d23232d00758c.jpg"
+      ],
+      "harga": 150000,
+      "id": 36
+    },
+    {
+      "nama": "Safir",
+      "deskripsi": "Material : Rayon Bahan adem, jatuh mengikuti bentuk badan, menyerap keringat, nyaman banget dipakai, cocok untuk Daily Actifity kamu.",
+      "brand": "Hijab.Id",
+      "category": "Homewear",
+      "stock": [
+        {
+          "id": null,
+          "type": "Safir",
+          "qty": 24
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/279f0b9337517714.jpg",
+        "https://hijab.id/tm_images/produk_foto/95b96d9570e4692c.jpg",
+        "https://hijab.id/tm_images/produk_foto/4b85c479275decf4.jpg"
+      ],
+      "harga": 150000,
+      "id": 37
+    },
+    {
+      "nama": "Zea Blazer Set",
+      "deskripsi": "Blazer dengan perpaduan warna pastel yang cocok digunakan untuk berbagai acara formal maupun non formal (Tersedia One Set Atasan dan Bawahan)",
+      "brand": "Hijab.Id",
+      "category": "Sets",
+      "stock": [
+        {
+          "id": null,
+          "type": "Zea Blazer",
+          "qty": 18
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/5bb2486920476ebf.jpg",
+        "https://hijab.id/tm_images/produk_foto/4fe25f1f4ca4ae86.jpg"
+      ],
+      "harga": 468000,
+      "id": 38
+    },
+    {
+      "nama": "Camilla Collection Navy",
+      "deskripsi": "Exclusive Knit set untuk daily wear yang menciptakan kesan simple dan elegan,dipercantik dengan sematan Charm berwarna Rose gold,dan 5 pilihan warna basic dan pastel.",
+      "brand": "Hijab.Id",
+      "category": "Sets",
+      "stock": [
+        {
+          "id": null,
+          "type": "Navy",
+          "qty": 14
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk_foto/85fb5e1318e7da40.jpg",
+        "https://hijab.id/tm_images/produk_foto/df45077f2742e019.jpg",
+        "https://hijab.id/tm_images/produk/a8a84bd412431105.jpg"
+      ],
+      "harga": 239000,
+      "id": 39
+    },
+    {
+      "nama": "Camilla Collection Lilac",
+      "deskripsi": "Exclusive Knit set untuk daily wear yang menciptakan kesan simple dan elegan,dipercantik dengan sematan Charm berwarna Rose gold,dan 5 pilihan warna basic dan pastel.",
+      "brand": "Hijab.Id",
+      "category": "Sets",
+      "stock": [
+        {
+          "id": null,
+          "type": "Lilac",
+          "qty": 15
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/9ec713afde8936a9.jpg",
+        "https://hijab.id/tm_images/produk_foto/622b6791a8b0893f.jpg",
+        "https://hijab.id/tm_images/produk_foto/d47aa5d34ee03c2d.jpg"
+      ],
+      "harga": 239000,
+      "id": 40
+    },
+    {
+      "nama": "Zea Blazer Lemon",
+      "deskripsi": "Material : Tencel Organic Printing",
+      "brand": "Hijab.Id",
+      "category": "Tops",
+      "stock": [
+        {
+          "id": null,
+          "type": "Lemon",
+          "qty": 13
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk_foto/cec2954d3333553f.jpg",
+        "https://hijab.id/tm_images/produk_foto/7fae58b52c9fcd7b.jpg",
+        "https://hijab.id/tm_images/produk_foto/404bc2045cf65858.jpg"
+      ],
+      "harga": 525000,
+      "id": 41
+    },
+    {
+      "nama": "Arfa Top",
+      "deskripsi": "Material : Linen High Quality",
+      "brand": "Hijab.Id",
+      "category": "Tops",
+      "stock": [
+        {
+          "id": null,
+          "type": "White",
+          "qty": 20
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/07d7f0a4b3e26e26.jpg",
+        "https://hijab.id/tm_images/produk_foto/fadec29bc2b40f60.jpg",
+        "https://hijab.id/tm_images/produk_foto/ade191abe3e511b1.jpg"
+      ],
+      "harga": 349000,
+      "id": 42
+    },
+    {
+      "nama": "Jasmin Grey",
+      "deskripsi": "Material: Premium Cotton  ( Hand feel lembut, dingin, jatuh, tidak menerawang ) ",
+      "brand": "Hijab.Id",
+      "category": "Tops",
+      "stock": [
+        {
+          "id": null,
+          "type": "Jasmin Grey",
+          "qty": 14
+        }
+      ],
+      "images": [
+        "https://hijab.id/tm_images/produk/c209d44e64b99b83.jpg",
+        "https://hijab.id/tm_images/produk_foto/308b585f5dfe6b50.jpg",
+        "https://hijab.id/tm_images/produk_foto/2c84e46c0c9d5102.jpg"
+      ],
+      "harga": 375000,
+      "id": 43
+    }
+  ]
+}
